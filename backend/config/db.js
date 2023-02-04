@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+//change mongo_url to mongo_uri to access cloud db
+
 const connectDb = async () => {
     mongoose.set('strictQuery',false);
     try {
